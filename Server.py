@@ -203,6 +203,7 @@ def resume_flex():
                             "text": "機器學習，深度學習，資料分析，android app 與 ios app開發",
                             "size": "md",
                             "weight": "bold",
+                            "color": "#5000FF",
                             "decoration": "underline"
                         },
                         {
@@ -215,6 +216,7 @@ def resume_flex():
                             "text": " c , c++ , python , java , c# , javascript ",
                             "size": "md",
                             "weight": "bold",
+                            "color": "#5000FF",
                             "decoration": "underline"
                         },
                         {
@@ -227,6 +229,7 @@ def resume_flex():
                             "text": "我有問題處理的能⼒",
                             "size": "md",
                             "weight": "bold",
+                            "color": "#5000FF",
                             "decoration": "underline"
                         },
                         {

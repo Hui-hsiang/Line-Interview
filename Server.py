@@ -103,7 +103,7 @@ def resume_flex():
                             }
                             ],
                             "size": "sm",
-                            "wrap": True
+                            "wrap": true
                         }
                         ]
                     }
@@ -143,7 +143,7 @@ def resume_flex():
                             "text": " line bot api 、Android app 開發\n、 iOS app 開發"
                         }
                         ],
-                        "wrap": True
+                        "wrap": true
                     }
                     ],
                     "margin": "none",
@@ -154,14 +154,15 @@ def resume_flex():
                     "alignItems": "center",
                     "offsetStart": "none",
                     "offsetEnd": "none",
-                    "offsetBottom": "lg"
+                    "offsetBottom": "lg",
+                    "offsetTop": "sm"
                 }
                 ],
                 "paddingAll": "0px"
             },
             "styles": {
                 "hero": {
-                "separator": False
+                "separator": false
                 }
             }
             },
@@ -235,7 +236,7 @@ def resume_flex():
                         }
                         ],
                         "size": "sm",
-                        "wrap": True,
+                        "wrap": true,
                         "offsetTop": "none",
                         "offsetStart": "none",
                         "offsetEnd": "none"
@@ -247,14 +248,14 @@ def resume_flex():
                     "margin": "none",
                     "spacing": "none",
                     "width": "250px",
-                    "offsetTop": "xl"
+                    "offsetTop": "xxl"
                 }
                 ],
                 "paddingAll": "0px"
             },
             "styles": {
                 "hero": {
-                "separator": False
+                "separator": false
                 }
             }
             },
@@ -337,14 +338,14 @@ def resume_flex():
                             },
                             {
                                 "type": "span",
-                                "text": "戰國策競賽 數位創新組-最佳學生組",
+                                "text": "戰國策競賽 數位創新組-最佳學⽣組",
                                 "color": "#5000FF",
                                 "size": "sm",
                                 "weight": "bold"
                             }
                             ],
                             "size": "sm",
-                            "wrap": True
+                            "wrap": true
                         },
                         {
                             "type": "box",
@@ -364,7 +365,7 @@ def resume_flex():
             },
             "styles": {
                 "hero": {
-                "separator": False
+                "separator": false
                 }
             }
             }

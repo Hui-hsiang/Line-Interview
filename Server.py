@@ -40,7 +40,7 @@ class User():
         self.score = 0
 
 
-def welcome_flex():
+def resume_flex():
     
     content = {
   "type": "carousel",
@@ -99,11 +99,11 @@ def welcome_flex():
                       },
                       {
                         "type": "span",
-                        "text": "年齡:21 歲\n ⽬前就讀 | 台灣科技⼤學\n資訊⼯程系\n ⾼職畢業 | 大安⾼⼯ \n 電⼦科  "
+                        "text": "年齡:21 歲\n ⽬前就讀 \n 台灣科技⼤學資訊⼯程系\n 畢業於 \n 大安⾼⼯電⼦科  "
                       }
                     ],
                     "size": "sm",
-                    "wrap": True
+                    "wrap": true
                   }
                 ]
               }
@@ -140,19 +140,19 @@ def welcome_flex():
                   },
                   {
                     "type": "span",
-                    "text": " line bot api 、android app 開發\n、 iOS app 開發"
+                    "text": " line bot api 、Android app 開發\n、 iOS app 開發"
                   }
                 ],
-                "wrap": True
+                "wrap": true
               }
             ],
             "margin": "none",
             "spacing": "none",
             "borderWidth": "none",
-            "cornerRadius": "xs",
+            "cornerRadius": "none",
             "justifyContent": "center",
             "alignItems": "center",
-            "offsetStart": "sm",
+            "offsetStart": "none",
             "offsetEnd": "none",
             "offsetBottom": "lg"
           }
@@ -161,7 +161,7 @@ def welcome_flex():
       },
       "styles": {
         "hero": {
-          "separator": False
+          "separator": false
         }
       }
     },
@@ -194,14 +194,15 @@ def welcome_flex():
                 "contents": [
                   {
                     "type": "span",
-                    "text": " 在學校有修過",
+                    "text": " 有修過",
                     "size": "md"
                   },
                   {
                     "type": "span",
                     "text": "機器學習，深度學習，資料分析，android app 與 ios app開發",
                     "size": "md",
-                    "color": "#FF0000"
+                    "weight": "bold",
+                    "decoration": "underline"
                   },
                   {
                     "type": "span",
@@ -212,7 +213,8 @@ def welcome_flex():
                     "type": "span",
                     "text": " c , c++ , python , java , c# , javascript ",
                     "size": "md",
-                    "color": "#FF0000"
+                    "weight": "bold",
+                    "decoration": "underline"
                   },
                   {
                     "type": "span",
@@ -223,7 +225,8 @@ def welcome_flex():
                     "type": "span",
                     "text": "我有問題處理的能⼒",
                     "size": "md",
-                    "color": "#FF0000"
+                    "weight": "bold",
+                    "decoration": "underline"
                   },
                   {
                     "type": "span",
@@ -232,7 +235,7 @@ def welcome_flex():
                   }
                 ],
                 "size": "sm",
-                "wrap": True,
+                "wrap": true,
                 "offsetTop": "xxl",
                 "offsetStart": "none",
                 "offsetEnd": "none"
@@ -250,7 +253,7 @@ def welcome_flex():
       },
       "styles": {
         "hero": {
-          "separator": False
+          "separator": false
         }
       }
     },
@@ -291,47 +294,56 @@ def welcome_flex():
                         "color": "#000000",
                         "text": "特殊經歷\n",
                         "style": "italic",
-                        "size": "sm"
+                        "size": "xl"
                       },
                       {
                         "type": "span",
                         "text": "46屆全國技能競賽北區 ⼯業電⼦職類 第五名\n",
-                        "size": "md",
-                        "color": "#FF0000"
+                        "size": "sm",
+                        "color": "#538F53",
+                        "weight": "bold",
+                        "decoration": "none",
+                        "style": "normal"
                       },
                       {
                         "type": "span",
                         "text": "46屆全國技能競賽暨44屆國際技能競賽國⼿選拔賽 ⼯業電⼦職類 佳作\n",
                         "color": "#5000FF",
-                        "size": "md"
+                        "size": "sm",
+                        "style": "normal",
+                        "weight": "bold"
                       },
                       {
                         "type": "span",
                         "text": "全國⾼級中等學校專業群科106年專題及創意製作競賽 專題組電機與電⼦群佳作\n ",
-                        "color": "#FF0000",
-                        "size": "md"
+                        "color": "#538F53",
+                        "size": "sm",
+                        "weight": "bold"
                       },
                       {
                         "type": "span",
                         "text": "LINE FRESH 2020校園競賽 ⿊客松組 季軍\n",
                         "color": "#5000FF",
-                        "size": "md"
+                        "size": "sm",
+                        "weight": "bold"
                       },
                       {
                         "type": "span",
                         "text": "2020放視⼤賞 ⾏動應⽤類——軟體內容組 銀獎 未來式互動盆栽與植物交友盒\n",
-                        "color": "#FF0000",
-                        "size": "sm"
+                        "color": "#538F53",
+                        "size": "sm",
+                        "weight": "bold"
                       },
                       {
                         "type": "span",
                         "text": "戰國策競賽 資誠數位創新組-最佳學⽣組",
                         "color": "#5000FF",
-                        "size": "sm"
+                        "size": "sm",
+                        "weight": "bold"
                       }
                     ],
                     "size": "sm",
-                    "wrap": True
+                    "wrap": true
                   },
                   {
                     "type": "box",
@@ -351,12 +363,12 @@ def welcome_flex():
       },
       "styles": {
         "hero": {
-          "separator": False
+          "separator": false
         }
       }
     }
   ]
-}
+    }
     return content
 def rank_flex():
     rank = 1
@@ -798,7 +810,7 @@ def handle_message(event):
     if event.source.user_id != "Udeadbeefdeadbeefdeadbeefdeadbeef":
         
         if text == "自傳":
-            contents = welcome_flex()
+            contents = resume_flex()
             line_bot_api.reply_message(
                 event.reply_token,
                 FlexSendMessage('歡迎查看黃暉翔的履歷', contents)

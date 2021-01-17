@@ -564,19 +564,29 @@ def handle_message(event):
     profile = line_bot_api.get_profile(event.source.user_id)
     if event.source.user_id != "Udeadbeefdeadbeefdeadbeefdeadbeef":
         
-        # Phoebe 愛唱歌
-        pretty_note = '♫♪♬'
-        pretty_text = ''
-        
-        for i in event.message.text:
-        
-            pretty_text += i
-            pretty_text += random.choice(pretty_note)
+        if text == "自傳":
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text="尚未完成喔")
+            )
+        elif text == "作品集":
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text="尚未完成喔")
+            )
+        elif text == "聯絡方式":
+            pretty_text = "email: fly305z102@gmail.com"
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text=pretty_text)
+            )
+        elif text == "more":
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text="尚未完成喔")
+            )
     
-        line_bot_api.reply_message(
-            event.reply_token,
-            TextSendMessage(text=pretty_text)
-        )
+        
 
     
 

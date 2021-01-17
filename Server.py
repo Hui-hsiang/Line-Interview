@@ -128,7 +128,7 @@ def welcome_flex():
                   }
                 ],
                 "size": "sm",
-                "wrap": true
+                "wrap": True
               },
               {
                 "type": "box",

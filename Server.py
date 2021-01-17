@@ -128,7 +128,7 @@ def resume_flex():
                         },
                         {
                             "type": "span",
-                            "text": "Visual Studio、C、C++、Java、\nSwift、python、JavaSript、HTML \n"
+                            "text": "Visual Studio,C,C++,Java,\nSwift,python,JavaSript,HTML \n"
                         },
                         {
                             "type": "span",
@@ -140,7 +140,7 @@ def resume_flex():
                         },
                         {
                             "type": "span",
-                            "text": " line bot api 、Android app 開發\n、 iOS app 開發"
+                            "text": " line bot api ,Android app 開發\n, iOS app 開發 ,Node.js"
                         }
                         ],
                         "wrap": True

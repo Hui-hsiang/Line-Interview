@@ -337,7 +337,7 @@ def resume_flex():
                             },
                             {
                                 "type": "span",
-                                "text": "戰國策競賽 資誠數位創新組-最佳學⽣組",
+                                "text": "戰國策競賽 數位創新組-最佳學生組",
                                 "color": "#5000FF",
                                 "size": "sm",
                                 "weight": "bold"

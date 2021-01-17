@@ -43,87 +43,117 @@ class User():
 def welcome_flex():
     
     content = {
-        "type": "bubble",
-        "hero": {
-        "type": "image",
-        "url": "https://i.imgur.com/XcJ0dvq.jpeg",
-        "size": "full",
-        "aspectRatio": "20:13",
-        "aspectMode": "cover",
-        "action": {
-            "type": "uri",
-            "uri": "http://linecorp.com/"
-            }
-            },
-        "body": {
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip7.jpg",
+            "size": "5xl",
+            "aspectMode": "cover",
+            "aspectRatio": "150:196",
+            "gravity": "center",
+            "flex": 1
+          },
+          {
             "type": "box",
             "layout": "vertical",
             "contents": [
-            {
-                "type": "text",
-                "text": "InsurTech⁺",
-                "color": "#4969c3",
-                "weight": "bold",
-                "size": "xl"
-                },
-            {
-                "type": "box",
-                "layout": "vertical",
-                "margin": "lg",
-                "spacing": "sm",
-                "contents": [
-                {
-                    "type": "box",
-                    "layout": "baseline",
-                    "spacing": "sm",
-                    "contents": [
-                    {
-                        "type": "text",
-                        "text": "嗨我是智慧保險導購平台 InsurTech⁺\n任何與保險相關問題\n我都可以協助您😁",
-                        "wrap": True,
-                        "color": "#666666",
-                        "size": "sm",
-                        "flex": 5
-                        }
-                        ]
-                    }
-                ]
-                }
-                ]
-            },
-        "footer": {
-            "type": "box",
-            "layout": "vertical",
-            "spacing": "sm",
-            "contents": [
-            {
-                "type": "button",
-                "style": "link",
-                "height": "sm",
-                "action": {
-                    "type":"message",
-                    "label":"我想諮詢業務員",
-                    "text":"我想諮詢業務員"
-                }
-            },
-            {
-                "type": "button",
-                "style": "link",
-                "height": "sm",
-                "action": {
-                "type": "uri",
-                "label": "WEBSITE",
-                "uri": "https://linecorp.com"
-                }
-            },
-            {
-                "type": "spacer",
-                "size": "sm"
-            }
+              {
+                "type": "image",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip8.jpg",
+                "size": "full",
+                "aspectMode": "cover",
+                "aspectRatio": "150:98",
+                "gravity": "center"
+              },
+              {
+                "type": "image",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip9.jpg",
+                "size": "full",
+                "aspectMode": "cover",
+                "aspectRatio": "150:98",
+                "gravity": "center"
+              }
             ],
-            "flex": 0
-            }
+            "flex": 1
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip13.jpg",
+                "aspectMode": "cover",
+                "size": "full"
+              }
+            ],
+            "cornerRadius": "100px",
+            "width": "72px",
+            "height": "72px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "brown_05",
+                    "weight": "bold",
+                    "color": "#000000"
+                  },
+                  {
+                    "type": "span",
+                    "text": "     "
+                  },
+                  {
+                    "type": "span",
+                    "text": "I went to the Brown&Cony cafe in Tokyo and took a picture"
+                  }
+                ],
+                "size": "sm",
+                "wrap": true
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "1,140,753 Like",
+                    "size": "sm",
+                    "color": "#bcbcbc"
+                  }
+                ],
+                "spacing": "sm",
+                "margin": "md"
+              }
+            ]
+          }
+        ],
+        "spacing": "xl",
+        "paddingAll": "20px"
+      }
+    ],
+    "paddingAll": "0px"
         }
+    }
     return content
 def rank_flex():
     rank = 1

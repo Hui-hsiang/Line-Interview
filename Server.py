@@ -43,67 +43,73 @@ class User():
 def welcome_flex():
     
     content = {
-  "type": "bubble",
-  "body": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
         "type": "box",
-        "layout": "horizontal",
+        "layout": "vertical",
         "contents": [
           {
             "type": "image",
-            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip7.jpg",
-            "size": "5xl",
+            "url": "https://i.imgur.com/idkgenq.jpg",
             "aspectMode": "cover",
-            "aspectRatio": "150:196",
-            "gravity": "center",
-            "flex": 1
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "image",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip8.jpg",
-                "size": "full",
-                "aspectMode": "cover",
-                "aspectRatio": "150:98",
-                "gravity": "center"
-              },
-              {
-                "type": "image",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip9.jpg",
-                "size": "full",
-                "aspectMode": "cover",
-                "aspectRatio": "150:98",
-                "gravity": "center"
-              }
-            ],
-            "flex": 1
+            "size": "full"
           }
-        ]
+        ],
+        "spacing": "none",
+        "height": "250px"
       },
-      {
+      "body": {
         "type": "box",
-        "layout": "horizontal",
+        "layout": "vertical",
         "contents": [
           {
             "type": "box",
-            "layout": "vertical",
+            "layout": "horizontal",
             "contents": [
               {
-                "type": "image",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip13.jpg",
-                "aspectMode": "cover",
-                "size": "full"
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://i.imgur.com/jUSHZll.jpg",
+                    "aspectMode": "fit",
+                    "size": "full"
+                  }
+                ],
+                "cornerRadius": "100px",
+                "width": "72px",
+                "height": "72px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "contents": [
+                      {
+                        "type": "span",
+                        "weight": "bold",
+                        "color": "#000000",
+                        "text": "黃暉翔\n"
+                      },
+                      {
+                        "type": "span",
+                        "text": "年齡:21 歲\n ⽬前就讀 | 台灣科技⼤學\n資訊⼯程系\n ⾼職畢業 | 大安⾼⼯ \n 電⼦科  "
+                      }
+                    ],
+                    "size": "sm",
+                    "wrap": True
+                  }
+                ]
               }
             ],
-            "cornerRadius": "100px",
-            "width": "72px",
-            "height": "72px"
+            "spacing": "xl",
+            "paddingAll": "20px"
           },
           {
             "type": "box",
@@ -114,46 +120,243 @@ def welcome_flex():
                 "contents": [
                   {
                     "type": "span",
-                    "text": "brown_05",
-                    "weight": "bold",
-                    "color": "#000000"
+                    "text": "程式技術 \n",
+                    "size": "xxs",
+                    "weight": "regular",
+                    "style": "italic",
+                    "color": "#0000008F"
                   },
                   {
                     "type": "span",
-                    "text": "     "
+                    "text": "Visual Studio、C、C++、Java、\nSwift、python、JavaSript、HTML \n"
                   },
                   {
                     "type": "span",
-                    "text": "I went to the Brown&Cony cafe in Tokyo and took a picture"
+                    "text": "熟悉並瞭解\n",
+                    "size": "xs",
+                    "color": "#0000008F",
+                    "weight": "regular",
+                    "style": "italic"
+                  },
+                  {
+                    "type": "span",
+                    "text": " line bot api 、android app 開發\n、 iOS app 開發"
+                  }
+                ],
+                "wrap": True
+              }
+            ],
+            "margin": "none",
+            "spacing": "none",
+            "borderWidth": "none",
+            "cornerRadius": "xs",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "offsetStart": "sm",
+            "offsetEnd": "none",
+            "offsetBottom": "lg"
+          }
+        ],
+        "paddingAll": "0px"
+      },
+      "styles": {
+        "hero": {
+          "separator": False
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/idkgenq.jpg",
+            "aspectMode": "cover",
+            "size": "full"
+          }
+        ],
+        "spacing": "none",
+        "height": "250px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": " 在學校有修過",
+                    "size": "md"
+                  },
+                  {
+                    "type": "span",
+                    "text": "機器學習，深度學習，資料分析，android app 與 ios app開發",
+                    "size": "md",
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "span",
+                    "text": "相關課程。並且接觸",
+                    "size": "md"
+                  },
+                  {
+                    "type": "span",
+                    "text": " c , c++ , python , java , c# , javascript ",
+                    "size": "md",
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "span",
+                    "text": "等程式語⾔。能夠理解並接續開發他⼈程式碼，並能夠進⾏專案團隊合作。",
+                    "size": "md"
+                  },
+                  {
+                    "type": "span",
+                    "text": "我有問題處理的能⼒",
+                    "size": "md",
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "span",
+                    "text": "，同時豐富的活動及比賽經驗培養我更能找出被忽略的問題，並提供解決⽅案，對於⾃⼰份內的事有責任感，同時有領導跟錯誤檢討能⼒，可以調整⾃⼰更加融入團隊。",
+                    "size": "md"
                   }
                 ],
                 "size": "sm",
-                "wrap": True
-              },
+                "wrap": True,
+                "offsetTop": "xxl",
+                "offsetStart": "none",
+                "offsetEnd": "none"
+              }
+            ],
+            "offsetStart": "xxl",
+            "borderWidth": "normal",
+            "cornerRadius": "none",
+            "margin": "md",
+            "spacing": "md",
+            "width": "250px"
+          }
+        ],
+        "paddingAll": "0px"
+      },
+      "styles": {
+        "hero": {
+          "separator": False
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/idkgenq.jpg",
+            "aspectMode": "cover",
+            "size": "full"
+          }
+        ],
+        "spacing": "none",
+        "height": "250px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
               {
                 "type": "box",
-                "layout": "baseline",
+                "layout": "vertical",
                 "contents": [
                   {
                     "type": "text",
-                    "text": "1,140,753 Like",
+                    "contents": [
+                      {
+                        "type": "span",
+                        "weight": "bold",
+                        "color": "#000000",
+                        "text": "特殊經歷\n",
+                        "style": "italic",
+                        "size": "sm"
+                      },
+                      {
+                        "type": "span",
+                        "text": "46屆全國技能競賽北區 ⼯業電⼦職類 第五名\n",
+                        "size": "md",
+                        "color": "#FF0000"
+                      },
+                      {
+                        "type": "span",
+                        "text": "46屆全國技能競賽暨44屆國際技能競賽國⼿選拔賽 ⼯業電⼦職類 佳作\n",
+                        "color": "#5000FF",
+                        "size": "md"
+                      },
+                      {
+                        "type": "span",
+                        "text": "全國⾼級中等學校專業群科106年專題及創意製作競賽 專題組電機與電⼦群佳作\n ",
+                        "color": "#FF0000",
+                        "size": "md"
+                      },
+                      {
+                        "type": "span",
+                        "text": "LINE FRESH 2020校園競賽 ⿊客松組 季軍\n",
+                        "color": "#5000FF",
+                        "size": "md"
+                      },
+                      {
+                        "type": "span",
+                        "text": "2020放視⼤賞 ⾏動應⽤類——軟體內容組 銀獎 未來式互動盆栽與植物交友盒\n",
+                        "color": "#FF0000",
+                        "size": "sm"
+                      },
+                      {
+                        "type": "span",
+                        "text": "戰國策競賽 資誠數位創新組-最佳學⽣組",
+                        "color": "#5000FF",
+                        "size": "sm"
+                      }
+                    ],
                     "size": "sm",
-                    "color": "#bcbcbc"
+                    "wrap": True
+                  },
+                  {
+                    "type": "box",
+                    "layout": "baseline",
+                    "contents": [],
+                    "spacing": "sm",
+                    "margin": "md"
                   }
-                ],
-                "spacing": "sm",
-                "margin": "md"
+                ]
               }
-            ]
+            ],
+            "spacing": "xl",
+            "paddingAll": "20px"
           }
         ],
-        "spacing": "xl",
-        "paddingAll": "20px"
-      }
-    ],
-    "paddingAll": "0px"
+        "paddingAll": "0px"
+      },
+      "styles": {
+        "hero": {
+          "separator": False
         }
+      }
     }
+  ]
+}
     return content
 def rank_flex():
     rank = 1

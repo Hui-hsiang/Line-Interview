@@ -42,11 +42,12 @@ class User():
 
 def welcome_flex():
     
-    content = {
+    content = [
+        {
         "type": "bubble",
         "hero": {
         "type": "image",
-        "url": "https://i.imgur.com/XcJ0dvq.jpeg",
+        "url": "https://i.imgur.com/jUSHZll.jpg",
         "size": "full",
         "aspectRatio": "20:13",
         "aspectMode": "cover",
@@ -61,7 +62,7 @@ def welcome_flex():
             "contents": [
             {
                 "type": "text",
-                "text": "InsurTech⁺",
+                "text": "黃暉翔",
                 "color": "#4969c3",
                 "weight": "bold",
                 "size": "xl"
@@ -79,7 +80,11 @@ def welcome_flex():
                     "contents": [
                     {
                         "type": "text",
-                        "text": "嗨我是智慧保險導購平台 InsurTech⁺\n任何與保險相關問題\n我都可以協助您😁",
+                        "text": "21 歲\n" + 
+                            "⼤安⾼⼯ 2014/9~2017/6\n" + 
+                            "電⼦科 ｜ ⾼職畢業\n" + 
+                            "台灣科技⼤學 2017/9~2021/6\n" + 
+                            "資訊⼯程系｜⽬前就讀\n",
                         "wrap": True,
                         "color": "#666666",
                         "size": "sm",
@@ -91,39 +96,66 @@ def welcome_flex():
                 }
                 ]
             },
-        "footer": {
+        },
+        {
+        "type": "bubble",
+        "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/jUSHZll.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+            "type": "uri",
+            "uri": "http://linecorp.com/"
+            }
+            },
+        "body": {
             "type": "box",
             "layout": "vertical",
-            "spacing": "sm",
             "contents": [
             {
-                "type": "button",
-                "style": "link",
-                "height": "sm",
-                "action": {
-                    "type":"message",
-                    "label":"我想諮詢業務員",
-                    "text":"我想諮詢業務員"
-                }
-            },
+                "type": "text",
+                "text": "特殊經歷",
+                "color": "#4969c3",
+                "weight": "bold",
+                "size": "xl"
+                },
             {
-                "type": "button",
-                "style": "link",
-                "height": "sm",
-                "action": {
-                "type": "uri",
-                "label": "WEBSITE",
-                "uri": "https://linecorp.com"
+                "type": "box",
+                "layout": "vertical",
+                "margin": "lg",
+                "spacing": "sm",
+                "contents": [
+                {
+                    "type": "box",
+                    "layout": "baseline",
+                    "spacing": "sm",
+                    "contents": [
+                    {
+                        "type": "text",
+                        "text": "46屆全國技能競賽北區 ⼯業電⼦職類 第五名\n" + 
+                            "46屆全國技能競賽暨44屆國際技能競賽國⼿選拔賽 ⼯業電⼦職類 佳作\n" + 
+                            "全國⾼級中等學校專業群科106年專題及創意製作競賽 專題組電機與電⼦群佳作 \n" + 
+                            "LINE FRESH 2020 校園競賽 ⿊客松組 第三名\n" + 
+                            "2020放視⼤賞 ⾏動應⽤類——軟體內容組 銀獎 未來式互動盆栽與植物交友盒\n",
+                            "戰國策競賽 資誠數位創新組-最佳學⽣組\n",
+                            "ＡＩＡ國際事務交流社 活動長\n",
+                            "資訊⼯程系學會 機動組\n",
+                            "國際志⼯ 隊輔組\n",
+                        "wrap": True,
+                        "color": "#666666",
+                        "size": "sm",
+                        "flex": 5
+                        }
+                        ]
+                    }
+                ]
                 }
+                ]
             },
-            {
-                "type": "spacer",
-                "size": "sm"
-            }
-            ],
-            "flex": 0
-            }
-        }
+        }    
+        ]
     return content
 def rank_flex():
     rank = 1
@@ -565,10 +597,12 @@ def handle_message(event):
     if event.source.user_id != "Udeadbeefdeadbeefdeadbeefdeadbeef":
         
         if text == "自傳":
+            contents = welcome_flex()
             line_bot_api.reply_message(
                 event.reply_token,
-                TextSendMessage(text="尚未完成喔")
+                FlexSendMessage('歡迎查看黃暉翔的履歷', contents)
             )
+            
         elif text == "作品集":
             line_bot_api.reply_message(
                 event.reply_token,

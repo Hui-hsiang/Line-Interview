@@ -295,7 +295,7 @@ def resume_flex():
                                 "color": "#000000",
                                 "text": "特殊經歷\n",
                                 "style": "italic",
-                                "size": "xl"
+                                "size": "md"
                             },
                             {
                                 "type": "span",

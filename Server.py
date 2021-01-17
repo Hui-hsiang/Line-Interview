@@ -103,7 +103,7 @@ def resume_flex():
                             }
                             ],
                             "size": "sm",
-                            "wrap": true
+                            "wrap": True
                         }
                         ]
                     }
@@ -143,7 +143,7 @@ def resume_flex():
                             "text": " line bot api 、Android app 開發\n、 iOS app 開發"
                         }
                         ],
-                        "wrap": true
+                        "wrap": True
                     }
                     ],
                     "margin": "none",
@@ -162,7 +162,7 @@ def resume_flex():
             },
             "styles": {
                 "hero": {
-                "separator": false
+                "separator": False
                 }
             }
             },
@@ -236,7 +236,7 @@ def resume_flex():
                         }
                         ],
                         "size": "sm",
-                        "wrap": true,
+                        "wrap": True,
                         "offsetTop": "none",
                         "offsetStart": "none",
                         "offsetEnd": "none"
@@ -255,7 +255,7 @@ def resume_flex():
             },
             "styles": {
                 "hero": {
-                "separator": false
+                "separator": False
                 }
             }
             },
@@ -345,7 +345,7 @@ def resume_flex():
                             }
                             ],
                             "size": "sm",
-                            "wrap": true
+                            "wrap": True
                         },
                         {
                             "type": "box",
@@ -365,7 +365,7 @@ def resume_flex():
             },
             "styles": {
                 "hero": {
-                "separator": false
+                "separator": False
                 }
             }
             }

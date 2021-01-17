@@ -96,6 +96,38 @@ def welcome_flex():
                 }
                 ]
             },
+        "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+            {
+                "type": "button",
+                "style": "link",
+                "height": "sm",
+                "action": {
+                    "type":"message",
+                    "label":"我想諮詢業務員",
+                    "text":"我想諮詢業務員"
+                }
+            },
+            {
+                "type": "button",
+                "style": "link",
+                "height": "sm",
+                "action": {
+                "type": "uri",
+                "label": "WEBSITE",
+                "uri": "https://linecorp.com"
+                }
+            },
+            {
+                "type": "spacer",
+                "size": "sm"
+            }
+            ],
+            "flex": 0
+            }
         },
         {
         "type": "bubble",
@@ -154,6 +186,38 @@ def welcome_flex():
                 }
                 ]
             },
+            "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+            {
+                "type": "button",
+                "style": "link",
+                "height": "sm",
+                "action": {
+                    "type":"message",
+                    "label":"我想諮詢業務員",
+                    "text":"我想諮詢業務員"
+                }
+            },
+            {
+                "type": "button",
+                "style": "link",
+                "height": "sm",
+                "action": {
+                "type": "uri",
+                "label": "WEBSITE",
+                "uri": "https://linecorp.com"
+                }
+            },
+            {
+                "type": "spacer",
+                "size": "sm"
+            }
+            ],
+            "flex": 0
+            }
         }    
         ]
     return content

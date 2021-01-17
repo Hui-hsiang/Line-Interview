@@ -43,332 +43,333 @@ class User():
 def resume_flex():
     
     content = {
-  "type": "carousel",
-  "contents": [
-    {
-      "type": "bubble",
-      "hero": {
-        "type": "box",
-        "layout": "vertical",
+        "type": "carousel",
         "contents": [
-          {
-            "type": "image",
-            "url": "https://i.imgur.com/idkgenq.jpg",
-            "aspectMode": "cover",
-            "size": "full"
-          }
-        ],
-        "spacing": "none",
-        "height": "250px"
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
+            {
+            "type": "bubble",
+            "hero": {
                 "type": "box",
                 "layout": "vertical",
                 "contents": [
-                  {
+                {
                     "type": "image",
-                    "url": "https://i.imgur.com/jUSHZll.jpg",
-                    "aspectMode": "fit",
+                    "url": "https://i.imgur.com/idkgenq.jpg",
+                    "aspectMode": "cover",
                     "size": "full"
-                  }
+                }
                 ],
-                "cornerRadius": "100px",
-                "width": "72px",
-                "height": "72px"
-              },
-              {
+                "spacing": "none",
+                "height": "250px"
+            },
+            "body": {
                 "type": "box",
                 "layout": "vertical",
                 "contents": [
-                  {
-                    "type": "text",
-                    "contents": [
-                      {
-                        "type": "span",
-                        "weight": "bold",
-                        "color": "#000000",
-                        "text": "黃暉翔\n"
-                      },
-                      {
-                        "type": "span",
-                        "text": "年齡:21 歲\n ⽬前就讀 \n 台灣科技⼤學資訊⼯程系\n 畢業於 \n 大安⾼⼯電⼦科  "
-                      }
-                    ],
-                    "size": "sm",
-                    "wrap": True
-                  }
-                ]
-              }
-            ],
-            "spacing": "xl",
-            "paddingAll": "20px"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "text",
-                "contents": [
-                  {
-                    "type": "span",
-                    "text": "程式技術 \n",
-                    "size": "xxs",
-                    "weight": "regular",
-                    "style": "italic",
-                    "color": "#0000008F"
-                  },
-                  {
-                    "type": "span",
-                    "text": "Visual Studio、C、C++、Java、\nSwift、python、JavaSript、HTML \n"
-                  },
-                  {
-                    "type": "span",
-                    "text": "熟悉並瞭解\n",
-                    "size": "xs",
-                    "color": "#0000008F",
-                    "weight": "regular",
-                    "style": "italic"
-                  },
-                  {
-                    "type": "span",
-                    "text": " line bot api 、Android app 開發\n、 iOS app 開發"
-                  }
-                ],
-                "wrap": True
-              }
-            ],
-            "margin": "none",
-            "spacing": "none",
-            "borderWidth": "none",
-            "cornerRadius": "none",
-            "justifyContent": "center",
-            "alignItems": "center",
-            "offsetStart": "none",
-            "offsetEnd": "none",
-            "offsetBottom": "lg"
-          }
-        ],
-        "paddingAll": "0px"
-      },
-      "styles": {
-        "hero": {
-          "separator": False
-        }
-      }
-    },
-    {
-      "type": "bubble",
-      "hero": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "image",
-            "url": "https://i.imgur.com/idkgenq.jpg",
-            "aspectMode": "cover",
-            "size": "full"
-          }
-        ],
-        "spacing": "none",
-        "height": "250px"
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "text",
-                "contents": [
-                  {
-                    "type": "span",
-                    "text": " 有修過",
-                    "size": "md"
-                  },
-                  {
-                    "type": "span",
-                    "text": "機器學習，深度學習，資料分析，android app 與 ios app開發",
-                    "size": "md",
-                    "weight": "bold",
-                    "decoration": "underline"
-                  },
-                  {
-                    "type": "span",
-                    "text": "相關課程。並且接觸",
-                    "size": "md"
-                  },
-                  {
-                    "type": "span",
-                    "text": " c , c++ , python , java , c# , javascript ",
-                    "size": "md",
-                    "weight": "bold",
-                    "decoration": "underline"
-                  },
-                  {
-                    "type": "span",
-                    "text": "等程式語⾔。能夠理解並接續開發他⼈程式碼，並能夠進⾏專案團隊合作。",
-                    "size": "md"
-                  },
-                  {
-                    "type": "span",
-                    "text": "我有問題處理的能⼒",
-                    "size": "md",
-                    "weight": "bold",
-                    "decoration": "underline"
-                  },
-                  {
-                    "type": "span",
-                    "text": "，同時豐富的活動及比賽經驗培養我更能找出被忽略的問題，並提供解決⽅案，對於⾃⼰份內的事有責任感，同時有領導跟錯誤檢討能⼒，可以調整⾃⼰更加融入團隊。",
-                    "size": "md"
-                  }
-                ],
-                "size": "sm",
-                "wrap": True,
-                "offsetTop": "xxl",
-                "offsetStart": "none",
-                "offsetEnd": "none"
-              }
-            ],
-            "offsetStart": "xxl",
-            "borderWidth": "normal",
-            "cornerRadius": "none",
-            "margin": "md",
-            "spacing": "md",
-            "width": "250px"
-          }
-        ],
-        "paddingAll": "0px"
-      },
-      "styles": {
-        "hero": {
-          "separator": False
-        }
-      }
-    },
-    {
-      "type": "bubble",
-      "hero": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "image",
-            "url": "https://i.imgur.com/idkgenq.jpg",
-            "aspectMode": "cover",
-            "size": "full"
-          }
-        ],
-        "spacing": "none",
-        "height": "250px"
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "text",
-                    "contents": [
-                      {
-                        "type": "span",
-                        "weight": "bold",
-                        "color": "#000000",
-                        "text": "特殊經歷\n",
-                        "style": "italic",
-                        "size": "xl"
-                      },
-                      {
-                        "type": "span",
-                        "text": "46屆全國技能競賽北區 ⼯業電⼦職類 第五名\n",
-                        "size": "sm",
-                        "color": "#538F53",
-                        "weight": "bold",
-                        "decoration": "none",
-                        "style": "normal"
-                      },
-                      {
-                        "type": "span",
-                        "text": "46屆全國技能競賽暨44屆國際技能競賽國⼿選拔賽 ⼯業電⼦職類 佳作\n",
-                        "color": "#5000FF",
-                        "size": "sm",
-                        "style": "normal",
-                        "weight": "bold"
-                      },
-                      {
-                        "type": "span",
-                        "text": "全國⾼級中等學校專業群科106年專題及創意製作競賽 專題組電機與電⼦群佳作\n ",
-                        "color": "#538F53",
-                        "size": "sm",
-                        "weight": "bold"
-                      },
-                      {
-                        "type": "span",
-                        "text": "LINE FRESH 2020校園競賽 ⿊客松組 季軍\n",
-                        "color": "#5000FF",
-                        "size": "sm",
-                        "weight": "bold"
-                      },
-                      {
-                        "type": "span",
-                        "text": "2020放視⼤賞 ⾏動應⽤類——軟體內容組 銀獎 未來式互動盆栽與植物交友盒\n",
-                        "color": "#538F53",
-                        "size": "sm",
-                        "weight": "bold"
-                      },
-                      {
-                        "type": "span",
-                        "text": "戰國策競賽 資誠數位創新組-最佳學⽣組",
-                        "color": "#5000FF",
-                        "size": "sm",
-                        "weight": "bold"
-                      }
-                    ],
-                    "size": "sm",
-                    "wrap": True
-                  },
-                  {
+                {
                     "type": "box",
-                    "layout": "baseline",
-                    "contents": [],
-                    "spacing": "sm",
-                    "margin": "md"
-                  }
-                ]
-              }
-            ],
-            "spacing": "xl",
-            "paddingAll": "20px"
-          }
-        ],
-        "paddingAll": "0px"
-      },
-      "styles": {
-        "hero": {
-          "separator": False
+                    "layout": "horizontal",
+                    "contents": [
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                        {
+                            "type": "image",
+                            "url": "https://i.imgur.com/jUSHZll.jpg",
+                            "aspectMode": "fit",
+                            "size": "full"
+                        }
+                        ],
+                        "cornerRadius": "100px",
+                        "width": "72px",
+                        "height": "72px"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                        {
+                            "type": "text",
+                            "contents": [
+                            {
+                                "type": "span",
+                                "weight": "bold",
+                                "color": "#000000",
+                                "text": "黃暉翔\n"
+                            },
+                            {
+                                "type": "span",
+                                "text": "年齡:21 歲\n ⽬前就讀 \n 台灣科技⼤學資訊⼯程系\n 畢業於 \n 大安⾼⼯電⼦科  "
+                            }
+                            ],
+                            "size": "sm",
+                            "wrap": true
+                        }
+                        ]
+                    }
+                    ],
+                    "spacing": "xl",
+                    "paddingAll": "20px"
+                },
+                {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                    {
+                        "type": "text",
+                        "contents": [
+                        {
+                            "type": "span",
+                            "text": "程式技術 \n",
+                            "size": "xxs",
+                            "weight": "regular",
+                            "style": "italic",
+                            "color": "#0000008F"
+                        },
+                        {
+                            "type": "span",
+                            "text": "Visual Studio、C、C++、Java、\nSwift、python、JavaSript、HTML \n"
+                        },
+                        {
+                            "type": "span",
+                            "text": "熟悉並瞭解\n",
+                            "size": "xs",
+                            "color": "#0000008F",
+                            "weight": "regular",
+                            "style": "italic"
+                        },
+                        {
+                            "type": "span",
+                            "text": " line bot api 、Android app 開發\n、 iOS app 開發"
+                        }
+                        ],
+                        "wrap": true
+                    }
+                    ],
+                    "margin": "none",
+                    "spacing": "none",
+                    "borderWidth": "none",
+                    "cornerRadius": "none",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "offsetStart": "none",
+                    "offsetEnd": "none",
+                    "offsetBottom": "lg"
+                }
+                ],
+                "paddingAll": "0px"
+            },
+            "styles": {
+                "hero": {
+                "separator": false
+                }
+            }
+            },
+            {
+            "type": "bubble",
+            "hero": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                {
+                    "type": "image",
+                    "url": "https://i.imgur.com/idkgenq.jpg",
+                    "aspectMode": "cover",
+                    "size": "full"
+                }
+                ],
+                "spacing": "none",
+                "height": "250px"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                    {
+                        "type": "text",
+                        "contents": [
+                        {
+                            "type": "span",
+                            "text": " 有修過",
+                            "size": "md"
+                        },
+                        {
+                            "type": "span",
+                            "text": "機器學習，深度學習，資料分析，android app 與 ios app開發",
+                            "size": "md",
+                            "weight": "bold",
+                            "decoration": "underline"
+                        },
+                        {
+                            "type": "span",
+                            "text": "相關課程。並且接觸",
+                            "size": "md"
+                        },
+                        {
+                            "type": "span",
+                            "text": " c , c++ , python , java , c# , javascript ",
+                            "size": "md",
+                            "weight": "bold",
+                            "decoration": "underline"
+                        },
+                        {
+                            "type": "span",
+                            "text": "等程式語⾔。能夠理解並接續開發他⼈程式碼，並能夠進⾏專案團隊合作。",
+                            "size": "md"
+                        },
+                        {
+                            "type": "span",
+                            "text": "我有問題處理的能⼒",
+                            "size": "md",
+                            "weight": "bold",
+                            "decoration": "underline"
+                        },
+                        {
+                            "type": "span",
+                            "text": "，同時豐富的活動及比賽經驗培養我更能找出被忽略的問題，並提供解決⽅案，對於⾃⼰份內的事有責任感，同時有領導跟錯誤檢討能⼒，可以調整⾃⼰更加融入團隊。",
+                            "size": "md"
+                        }
+                        ],
+                        "size": "sm",
+                        "wrap": true,
+                        "offsetTop": "none",
+                        "offsetStart": "none",
+                        "offsetEnd": "none"
+                    }
+                    ],
+                    "offsetStart": "xxl",
+                    "borderWidth": "normal",
+                    "cornerRadius": "none",
+                    "margin": "none",
+                    "spacing": "none",
+                    "width": "250px",
+                    "offsetTop": "xl"
+                }
+                ],
+                "paddingAll": "0px"
+            },
+            "styles": {
+                "hero": {
+                "separator": false
+                }
+            }
+            },
+            {
+            "type": "bubble",
+            "hero": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                {
+                    "type": "image",
+                    "url": "https://i.imgur.com/idkgenq.jpg",
+                    "aspectMode": "cover",
+                    "size": "full"
+                }
+                ],
+                "spacing": "none",
+                "height": "250px"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                        {
+                            "type": "text",
+                            "contents": [
+                            {
+                                "type": "span",
+                                "weight": "bold",
+                                "color": "#000000",
+                                "text": "特殊經歷\n",
+                                "style": "italic",
+                                "size": "xl"
+                            },
+                            {
+                                "type": "span",
+                                "text": "46屆全國技能競賽北區 ⼯業電⼦職類 第五名\n",
+                                "size": "sm",
+                                "color": "#538F53",
+                                "weight": "bold",
+                                "decoration": "none",
+                                "style": "normal"
+                            },
+                            {
+                                "type": "span",
+                                "text": "46屆全國技能競賽暨44屆國際技能競賽國⼿選拔賽 ⼯業電⼦職類 佳作\n",
+                                "color": "#5000FF",
+                                "size": "sm",
+                                "style": "normal",
+                                "weight": "bold"
+                            },
+                            {
+                                "type": "span",
+                                "text": "全國⾼級中等學校專業群科106年專題及創意製作競賽 專題組電機與電⼦群佳作\n ",
+                                "color": "#538F53",
+                                "size": "sm",
+                                "weight": "bold"
+                            },
+                            {
+                                "type": "span",
+                                "text": "LINE FRESH 2020校園競賽 ⿊客松組 季軍\n",
+                                "color": "#5000FF",
+                                "size": "sm",
+                                "weight": "bold"
+                            },
+                            {
+                                "type": "span",
+                                "text": "2020放視⼤賞 ⾏動應⽤類——軟體內容組 銀獎 未來式互動盆栽與植物交友盒\n",
+                                "color": "#538F53",
+                                "size": "sm",
+                                "weight": "bold"
+                            },
+                            {
+                                "type": "span",
+                                "text": "戰國策競賽 資誠數位創新組-最佳學⽣組",
+                                "color": "#5000FF",
+                                "size": "sm",
+                                "weight": "bold"
+                            }
+                            ],
+                            "size": "sm",
+                            "wrap": true
+                        },
+                        {
+                            "type": "box",
+                            "layout": "baseline",
+                            "contents": [],
+                            "spacing": "sm",
+                            "margin": "md"
+                        }
+                        ]
+                    }
+                    ],
+                    "spacing": "xl",
+                    "paddingAll": "20px"
+                }
+                ],
+                "paddingAll": "0px"
+            },
+            "styles": {
+                "hero": {
+                "separator": false
+                }
+            }
+            }
+        ]
         }
-      }
-    }
-  ]
-    }
     return content
 def rank_flex():
     rank = 1
